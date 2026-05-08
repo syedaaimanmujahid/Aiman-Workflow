@@ -1,0 +1,13 @@
+name: Git Action Workflow
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Git Action Test
+        run: echo "This is our test of Git Action Workflow"
